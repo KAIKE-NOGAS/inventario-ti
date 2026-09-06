@@ -1,1 +1,8 @@
-﻿Console.WriteLine("Hello, World!");
+﻿namespace inventario_ti
+{
+    class Program
+{
+    
+}
+
+}
