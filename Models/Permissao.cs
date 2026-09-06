@@ -6,6 +6,13 @@ namespace inventario_ti
         public bool? PainelAgentes { get; set;}
         public bool? GerenciamentoUsuarios { get; set; }
 
+        public Permissao(string nomeCargo, bool painelAgentes, bool gerenciamentoUsuarios)
+        {
+            NomeCargo = nomeCargo;
+            PainelAgentes = painelAgentes;
+            GerenciamentoUsuarios = gerenciamentoUsuarios;
+        }
+
     }
 
 }
